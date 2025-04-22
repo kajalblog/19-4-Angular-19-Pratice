@@ -1,0 +1,27 @@
+<div class="row mt-4">
+    <div class="col-lg-4">
+        <h2> Interpolation</h2>
+        <h3>Name:{{firstName}}</h3>
+        <h3>Roll No:{{rollNo}}</h3>
+        <span>IsActive :{{isActive}}</span>
+    </div>
+    <div class="col-lg-4">
+        <h2>Property Binding</h2>
+        <input type="text" name="" id="" [value]="firstName">
+        <br><br>
+        <input type="text" name="" id="" [placeholder]="newPlaceholder">
+        <br><br>
+        <div [class]="bgClass" style="height: 100px;width: 100px;"></div>
+    </div>
+
+    <div class="col-lg-4">
+        <h2>Event Binding</h2>
+        <button class="btn btn-primary" (click)="  displayMessage()">Save</button>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <h4>Two Wya Data Binding</h4>
+        <h5>{{firstName}}</h5>
+    </div>
+</div>
